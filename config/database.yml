@@ -25,6 +25,8 @@
   #database: db/production.sqlite3
 development:
   adapter: postgresql
+  user: postgres
+  password: A52985298a 
   database: my_database_development
   pool: 5
   timeout: 5000
